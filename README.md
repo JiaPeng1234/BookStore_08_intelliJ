@@ -1,6 +1,6 @@
 # BookStore_08_intelliJ
 intelliJ version of bookstore_08
-Building an online bookstore with frontend(jsp&html&css, JavaScript&jQuery) backend(tomcat, Servlet, Filter, ajax) and database(mysql, jdbc). Website can be accessed at http://jiapeng.tk/BookStore_08/  
+Building an online bookstore with frontend(jsp&html&css, JavaScript&jQuery) backend(tomcat, Servlet, Filter, ajax) and database(mysql, jdbc). Website can be accessed at http://jiapeng.info/BookStore_08/  
 
 Code of frontend is located under BookStore_JavaWeb/BookStore_08/WebContent/.  
 
