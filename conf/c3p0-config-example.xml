@@ -1,7 +1,9 @@
 <c3p0-config>
 	<!-- 用户自定义配置 -->
 	<named-config name="book_devoloper">
-			<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+			<!-- new version jdbc driver for mysql8, not compatible for c3p0 in terms of deserializing Date object -->
+			<!-- <property name="driverClass">com.mysql.cj.jdbc.Driver</property> -->
+			<property name="driverClass">com.mysql.jdbc.Driver</property>
 			<property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore_0407</property>
 			<property name="user">xx</property>
 			<property name="password">xx</property>
